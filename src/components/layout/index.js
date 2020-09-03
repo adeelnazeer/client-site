@@ -4,9 +4,9 @@ import Footer from '../footer/index';
 export default(props)=>{
     return(
         <>
-            {/* <Header/> */}
+            <Header/>
             {props.children}
-            {/* <Footer/> */}
+            <Footer/>
         </>
     );
 }
